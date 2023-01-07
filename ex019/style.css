@@ -1,0 +1,33 @@
+@charset "UTF-8"
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: forestgreen;
+}
+
+h1#principal {
+    color: red;
+}
+
+.aprenda {
+    color: green;
+}
+
+.basico {
+    color: mediumblue;
+}
+
+.intermediario {
+    color: aqua;
+}
+
+.avancado {
+    color: springgreen;
+}
+
+.destaque {
+    background-color: rgba(96, 238, 96, 0.479);
+}
