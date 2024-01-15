@@ -6,12 +6,12 @@
 }
 
 @font-face {
-    font-family: 'poppins', sans-serif;
-    src: url('fonts/Poppins-Regular.ttf' format('truetype'));
+    font-family: 'digitalo', sans-serif;
+    src: url('digitalo' format('truetype'))
 }
 
-head, h1, p {
-    padding: 15px;
+head, p {
+    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
 }
@@ -19,12 +19,9 @@ head, h1, p {
 head, h1 {
     color: #EB7500;
     font-size: 1.7em;
-    font-family: 'poppins', sans-serif;
+    font-family: 'digitalo', sans-serif;
     font-size: normal;
-}
-
-h1 {
-    padding: 5px;
+    padding: 50px 50px 10px 50px;
     background-color: #035AA6;
     text-align: center;
 }
@@ -54,6 +51,7 @@ article, p {
 
 h2 {
     background-image: linear-gradient(to right, #0569EA 30%, #04B2D9);
+    font-family: 'digitalo', sans-serif;
     color: #EB7500;
     padding: 7px;
     width: 100%;
