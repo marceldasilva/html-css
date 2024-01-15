@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: ;
-    src: url('');
+    font-family: 'poppins';
+    src: url('Poppins-Regular' format('truetype'));
 }
 
 head, h1, p {
@@ -19,7 +19,8 @@ head, h1, p {
 head, h1 {
     color: #EB7500;
     font-size: 1.7em;
-    font-family: var();
+    font-family: 'poppins', sans-serif;
+    font-size: normal;
 }
 
 h1 {
