@@ -6,21 +6,24 @@
 }
 
 @font-face {
-    font-family: 'digitalo', sans-serif;
-    src: url('digitalo' format('truetype'))
+    font-family: 'moderna';
+    src: url('fonts/moderna.TTF');
 }
 
 head, p {
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
 }
 
 head, h1 {
-    color: #EB7500;
-    font-size: 1.7em;
-    font-family: 'digitalo', sans-serif;
+    color: #00ebdbd7;
+    font-size: 2em;
+    font-family: 'moderna', Helvetica, sans-serif;
     font-size: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     padding: 50px 50px 10px 50px;
     background-color: #035AA6;
     text-align: center;
@@ -28,14 +31,14 @@ head, h1 {
 
 .header {
     background-color: #035AA6;
-    color: #EB7500;
+    color: #00EBDA;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 main {
-    width: 600px;
+    width: 800px;
     background-color: white;
     color: black;
     margin: auto;
@@ -47,17 +50,20 @@ main {
 
 article, p {
      text-align: justify;
+     text-indent: 30px;
 }
 
 h2 {
     background-image: linear-gradient(to right, #0569EA 30%, #04B2D9);
-    font-family: 'digitalo', sans-serif;
-    color: #EB7500;
-    padding: 7px;
+    font-family: 'moderna', Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    color: #00EBDA;
+    padding: 8px;
     width: 100%;
     border-radius: 30px;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin: 10px 10px 10px 15px;
 }
 
 body {
