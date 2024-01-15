@@ -6,7 +6,7 @@
 }
 
 @font-face {
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
     src: url('Poppins-Regular' format('truetype'));
 }
 
@@ -53,8 +53,8 @@ article, p {
 }
 
 h2 {
-    background-image: linear-gradient(to right, #035AA6 30%, #04B2D9);
-    color: #6911E5;
+    background-image: linear-gradient(to right, #0569EA 30%, #04B2D9);
+    color: #EB7500;
     padding: 7px;
     width: 100%;
     border-radius: 30px;
