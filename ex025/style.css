@@ -33,8 +33,19 @@ head, h1 {
     background-color: #035AA6;
     color: #00EBDA;
     text-align: center;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+}
+
+nav > p > a {
+    background-color: #035AA6;
+    text-decoration: none;
+    color: #00ebdbd7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p > a:hover {
+    background-color: #0569EA;
+    transition-duration: 1s;
 }
 
 main {
@@ -46,6 +57,7 @@ main {
     border-radius: 10px;
     line-height: 1.7em;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
 
 article, p {
@@ -83,7 +95,18 @@ img {
 }
 
 #contato {
-    border-radius: 5px;
+    border-radius: 60px;
     text-align: center;
     font-size: 1.5em;
+    width: 461px;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 3px;
 }
