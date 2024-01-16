@@ -24,7 +24,7 @@ head, h1 {
     font-size: normal;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    padding: 50px 50px 10px 50px;
+    padding: 15px 15px 15px 20px;
     background-color: #035AA6;
     text-align: center;
 }
@@ -35,15 +35,36 @@ head, h1 {
     text-align: center;
 }
 
-nav > p > a {
-    background-color: #035AA6;
-    text-decoration: none;
-    color: #00ebdbd7;
-    padding: 10px;
-    border-radius: 5px;
+#navegacao {
+    background-color: black;
+    margin-top: 0px;
 }
 
-p > a:hover {
+#navegacao > p > a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    color: #00ebdbd7;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#navegacao > p {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+nav > div {
+    background-color: #035AA6;
+    box-shadow: inset 5px solid rgba(0, 0, 0, 0.411);
+}
+
+nav > p {
+    padding-bottom: 10px;
+}
+
+#navegacao > p > a:hover {
     background-color: #0569EA;
     transition-duration: 1s;
 }
