@@ -157,7 +157,16 @@ aside > p {
 }
 
 #video {
-    
+    margin: 0px -10px 10px -10px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    padding: 0px;
 }
 
 footer {
