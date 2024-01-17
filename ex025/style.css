@@ -29,7 +29,7 @@ h1 {
     font-size: normal;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    padding: 15px 15px 15px 20px;
+    padding: 50px 15px 10px 20px;
     background-color: #035AA6;
     text-align: center;
 }
@@ -40,6 +40,7 @@ h1 {
     font-family: 'adobe', sans-serif;
     text-align: center;
     text-transform: uppercase;
+    padding: 0px 0px 50px 0px;
 }
 
 #lee {
@@ -67,11 +68,10 @@ h1 {
 #navegacao > p > a {
     color: white;
     background-color: black;
-    font-family: 'adobe', sans-serif;
+    font-family: 'adobe', Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin: 0px 5px 0px 5px;
     padding: 10px 5px 5px 5px;
-    border-radius: 0px 0px 5px 5px;
 }
 
 #navegacao > p {
@@ -85,7 +85,7 @@ h1 {
 }
 
 main {
-    width: 800px;
+    width: 1000px;
     background-color: white;
     color: black;
     margin: auto;
@@ -119,7 +119,7 @@ body {
     background-color: rgb(67, 167, 192)
 }
 
-#distancia {
+.distancia {
     margin-top: 20px;
 }
 
@@ -147,8 +147,11 @@ img {
 }
 
 #contato {
-    text-align: center;
+    font-family: 'adobe', Arial, Helvetica, sans-serif;
     font-size: 1.5em;
+    text-align: center;
+    background-color: black;
+    color: white;
     margin: auto;
     padding: 15px;
     margin-bottom: 20px;
