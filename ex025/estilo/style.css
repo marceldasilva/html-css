@@ -228,7 +228,7 @@ footer:hover a {
     text-decoration: underline;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:400px){
     .img_fundo{
         background-size: cover;
         background-image: url(../assets/cover_fundo_2.png)
@@ -253,9 +253,10 @@ footer:hover a {
     color: white;
     background-color: black;
     font-family: 'adobe', Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
     text-decoration: none;
-    padding: 10px 3px 6px 3px;
-    margin: 0px 0px 0px -15px;
+    padding: 10px 2px 6px 2px;
+    margin: 0px 0px 0px -27px;
 }
 
 iframe {
