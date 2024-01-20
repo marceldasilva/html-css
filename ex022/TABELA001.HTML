@@ -12,8 +12,15 @@
 
         table {
             width: 400px;
-            height: 400px;
             border-collapse: collapse;
+        }
+
+        tr.primeiro {
+            background-color: beige;
+        }
+
+        tr.segundo {
+            background-color: lightblue;
         }
 
         td {
@@ -22,25 +29,33 @@
             text-align: center;
             vertical-align: middle;
         }
+
+        td.reprovado {
+            background-color: lightcoral;
+        }
+
+        td.aprovado {
+            background-color: lightgreen;
+        }
     </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
     <table>
-        <tr>
+        <tr class="primeiro">
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr>
+        <tr class="segundo">
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
         <tr>
-            <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
+            <td class="reprovado">A3</td>
+            <td class="reprovado">B3</td>
+            <td class="aprovado">C3</td>
         </tr>
         <tr class="">
             <td>A4</td>
