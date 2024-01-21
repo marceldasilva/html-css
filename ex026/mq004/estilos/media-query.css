@@ -26,12 +26,12 @@
     }
 
     img#phone {display: none;}
-    img#desk {display: block;}
+    img#pc {display: block;}
     img#tv {display: none;}
     img#imp {display: none;}
     img#tab {display: none;}
 
-    img#desk {
+    img#pc {
         margin: auto;
     }
 }
