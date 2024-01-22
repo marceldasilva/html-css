@@ -2,5 +2,66 @@
 
 @font-face {
     font-family: 'open';
-    src: url();
+    src: url(../fonte/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open', Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    background-color: #3205add2;
+    padding: 10px;
+    display: block;
+}
+
+menu ul {
+    background-color: #4407ebb6;
+    list-style-type: none;
+}
+
+menu li a {
+    display: block;
+    color: white;
+    padding: 10px;
+    border-top: 2px solid #4507EB;
+    text-decoration: none;
+}
+
+menu a:hover {
+    background-color: lightgray;
+}
+
+main {
+    background-color: white;
+    width: 80vw;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ajuste {
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+article p {
+    line-height: 1.6em;
+    text-indent: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
 }
