@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Meu artigo</h1>
-        <menu>
+        <span class="material-icons" id="burger" oninput="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">eSports</a></li>
                 <li><a href="#">Tecnologia</a></li>
@@ -31,11 +33,38 @@
             <p>
                 A Samsung revelou que os recursos de inteligência artificial (IA) da nova série Galaxy S24 — que são o grande destaque da nova linha de smartphones da marca — podem ter um custo após cerca de dois anos de uso gratuito. A empresa revelou essa informação por meio de uma nota de rodapé nas listagens online do Galaxy S24, S24 Plus e Galaxy S24 Ultra, ressaltando que os recursos de IA serão gratuitos apenas até o final de 2025 em dispositivos Samsung Galaxy compatíveis.
             </p>
+            <h3 class="unico">Recursos de inteligência artificial da linha Galaxy S24
+            </h3>
+            <p>
+                Entre as inovações alimentadas por IA, a série S24 inclui recursos como transcrição de conversas no aplicativo de notas de voz, permitindo ainda a opção de resumir automaticamente a transcrição resultante.
+            </p>
+            <p>
+                Para edição de fotos, há uma função semelhante ao Magic Editor, que possibilita mover elementos ao redor do quadro após a captura da imagem.
+            </p>
+            <p>
+                Além disso, a série S24 suportará o novo truque “Circle to Search” da Google.
+            </p>
+            <p>
+                Outro destaque é a tão esperada função de tradução em tempo real de chamadas telefônicas bidirecionais em 13 idiomas diferentes, incluindo a tradução de mensagens de texto.
+            </p>
+            <p>
+                A Samsung também introduziu o recurso “tone tweak” neste ano, sua versão do Magic Compose da Google, permitindo ajustar o tom do texto escrito.
+            </p>
             <h2 id="esp" class="ajuste">Relembre um tabu quebrado pelo Flamengo em 2019</h2>
             <p>
                 Com a conquista do Campeonato Brasileiro e da Libertadores da América, o Flamengo quebrou um tabu de 56 anos no futebol brasileiro: desde 1963, um clube não conquistava a principal competição nacional e a Copa Libertadores da América em uma mesma temporada.
             </p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            var itens = document.getElementById("itens");
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
