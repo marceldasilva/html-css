@@ -5,11 +5,6 @@
     src: url(../fonte/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-@font-face {
-    font-family: '';
-    src: url();
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -82,7 +77,6 @@ main {
 }
 
 .info {
-    font-family: 'poppins';
     text-align: center;
     margin-bottom: 10px;
 }

@@ -10,6 +10,7 @@
 
     menu li {
         display: inline-block;
+        width: 150px;
         background-color: #3205add2;
         margin-left: 10px;
         margin-right: 10px;
