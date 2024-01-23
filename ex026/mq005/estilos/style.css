@@ -5,10 +5,7 @@
     src: url(../fonte/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-@font-face {
-    font-family: 'poppins', Arial, Helvetica, sans-serif;
-    src: url(../fonte/Poppins-Light.ttf);
-}
+
 
 * {
     margin: 0px;
