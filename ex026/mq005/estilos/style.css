@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'open';
+    font-family: 'open', Arial, Helvetica, sans-serif;
     src: url(../fonte/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
@@ -76,9 +76,24 @@ main {
     margin-bottom: 15px;
 }
 
+.info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.extra {
+    background-color: #0f64f791;
+    padding: 10px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
 .unico {
+    color: white;
     text-align: center;
     font-size: 1em;
+    margin-bottom: 15px;
 }
 
 article p {
