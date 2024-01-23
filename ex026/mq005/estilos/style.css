@@ -5,7 +5,10 @@
     src: url(../fonte/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-
+@font-face {
+    font-family: '';
+    src: url();
+}
 
 * {
     margin: 0px;
