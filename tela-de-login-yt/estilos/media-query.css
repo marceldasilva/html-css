@@ -28,8 +28,8 @@
     }
 
     #login {
-        width: 90%;
-        height: 40%;
+        width: 60%;
+        height: 45%;
     }
 
     #imagem {
@@ -41,6 +41,13 @@
     #formulario {
         float: left;
         width: 47%;
+    }
 
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
     }
 }
