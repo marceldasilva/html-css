@@ -11,7 +11,7 @@
     align-items: center;
 
     padding: 20px;
-    background-color: lightgray;
+    background-color: black;
     list-style-type: none;
 }
 
@@ -20,8 +20,8 @@
 }
 
 .itens > a {
-    background-color: rgb(103, 172, 103);
-    color: black;
+    font-weight: bold;
+    color: white;
     border-radius: 10px;
     padding: 10px;
     margin-left: 5px;
@@ -30,4 +30,9 @@
 
 .itens > a:hover {
     background-color: rgb(2, 194, 2);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
 }
