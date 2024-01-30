@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 800px;
+    margin: auto;
+}
+
+.items {
+    flex: 1 1 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#primeiro {
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
