@@ -36,3 +36,23 @@ h1 {
     text-align: center;
     margin-top: 100px;
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 5px;
+}
+
+div > img {
+    max-width: 100%;
+}
+
+div > p {
+    text-align: center;
+}
