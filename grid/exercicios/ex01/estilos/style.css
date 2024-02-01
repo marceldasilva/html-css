@@ -8,14 +8,46 @@
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 200px);
-    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, minmax(200px, auto));
+    grid-auto-rows: 200px;
+    gap: 1em;
 }
 
+.grid > div:nth-child(1) {
+    grid-column: 1 / -1;
+}
+
+.grid > div:nth-child(3) {
+    grid-column: span 3;
+}
+
+.grid > div:nth-child(5) {
+    grid-column: 1 / -1;
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid > div:nth-child(3) {
+        grid-column: 1;
+    }
+
+    .grid > div:nth-child(4) {
+        grid-column: 1;
+    }
+}
+
+
+
+
+
+
 .grid > div {
-    width: 200px;
-    height: 200px;
     background-color: blue;
+    padding: 16px;
 }
 
 .grid > div:nth-child(even) {
