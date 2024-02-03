@@ -6,9 +6,10 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr repeat(4, minmax(auto, 200px)) 1fr;
-    grid-auto-rows: 200px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: .5fr 2fr .5fr .5fr .5fr;
     gap: 10px;
+    height: 100vh;
     margin: auto;
 
     grid-template-areas: 
@@ -49,8 +50,6 @@ footer {
     background-color: lightblue;
 }
 
-
-
 .grid > * {
     padding: 1em;
 }
@@ -59,6 +58,7 @@ footer {
     .grid {
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         grid-auto-rows: 200px;
         gap: 10px;
         margin: auto;
