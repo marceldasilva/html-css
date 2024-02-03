@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [site-start] 1fr [content-start] repeat(4, 1fr) [site-end];
+    grid-template-rows: [site-top] 200px [content-top] 200px [content-bottom] 200px;
+    gap: 1em;
+}
+
+header, footer {
+    grid-column: site;
+}
+
+main {
+    grid-column: content;
+}
+
+aside {
+    grid-column: site-start / content-start;
+    grid-row: content-top / content-bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid > * {
+    background-color: blue;
+    padding: 1em;
+}
+
+.grid > *:nth-child(even) {
+    background-color: lightblue;
+}
