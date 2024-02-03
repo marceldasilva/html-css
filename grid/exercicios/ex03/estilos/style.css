@@ -6,14 +6,13 @@
 
 .grid {
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 200px;
     gap: 1em;
     
-    grid-template-areas: 
+    grid-template-areas:
         "header  header  header  header"
-        "main    main    main    main"
-        "aside   aside   aside   aside"
+        "main    main    main    aside"
         "footer  footer  footer  footer"
     ;
 }
@@ -36,7 +35,7 @@ footer {
 
 .grid > * {
     background-color: blue;
-    padding: 16px;
+    padding: 1em;
 }
 
 .grid > *:nth-child(even) {
