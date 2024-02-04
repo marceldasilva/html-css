@@ -1,47 +1,52 @@
 @charset "UTF-8";
 
-.grid {
-    display: grid;
-    grid-template-columns: [full-start] 1fr [container-start] repeat(6, 1fr) [container-end] 1fr [full-end];
-    grid-auto-rows: 1fr;
-    gap: .5em;
-    height: 100vh;
-}        
-
-header {
-    background-color: lightblue;
+@media screen and (min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: [full-start] 1fr [container-start] repeat(6, 1fr) [container-end] 1fr [full-end];
+        grid-auto-rows: 1fr;
+        gap: .5em;
+        height: 100vh;
+    }
+    
+    .grid > * {
+        padding: 1em;
+        margin: .5em 0;
+    }        
+    
+@media screen and (min-width: 768px) {
+    header {
+        background-color: lightblue;
+        margin-top: 0px;
+    }
+    
+    .l-hero {
+        background-color: green;
+        height: 250px;
+    }
+    
+    .l-subs {
+        display: grid;
+        gap: .5em;
+        padding: 0;
+    }
+    
+    .c-sub {
+        background-color: coral;
+        min-height: 100px;
+    }
+    
+    .l-conteudo {
+        background-color: blue;
+    }
+    
+    aside {
+        background-color: yellowgreen;
+    }
+    
+    footer {
+        background-color: lightblue;
+        margin-bottom: 0px;
+    }
 }
-
-.l-hero {
-    background-color: green;
-}
-
-.l-subs {
-    display: grid;
-    padding: 0px;
-}
-
-.l-sub {
-    background-color: orangered;
-    min-height: 100px;
-}
-
-.l-conteudo {
-    background-color: blue;
-}
-
-aside {
-    background-color: yellowgreen;
-}
-
-footer {
-    background-color: lightblue;
-}
-
-
-
-
-
-@media screen and (max-width: 768px) {
-
 }
