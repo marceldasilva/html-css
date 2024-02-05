@@ -81,6 +81,41 @@
 
 @media screen and (min-width: 1200px) {
     .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .titulo {
+        background-color: aqua;
+        grid-column: span 3;
+    }
+
+    .meta {
+        background-color: gray;
+        grid-column: 1;
+    }
+    
+    .principal {
+        background-color: blue;
+    }
+    
+    .secundario {
+        background-color: slateblue;
+        grid-column: 5 / 7;
+        grid-row: span 2;
         
+    }
+    
+    .media {
+        background-color: yellow;
+        grid-column: span 6;
+        grid-row: 3;
+    }
+    
+    .aside {
+        background-color: orangered;
+        grid-column: 1 / 3;
     }
 }
