@@ -40,6 +40,7 @@ img {
     grid-template-columns: 1fr 200px;
     gap: 10px;
     max-width: 800px;
+    margin: 0 auto;
 }
 
 .sidebar {
@@ -54,12 +55,29 @@ img {
     gap: 20px;
     max-width: 800px;
     margin: 0 auto;
+    padding: 10px;
 }
 
-.item > div:nth-child(1) {
+.itens-grid:nth-child(1) {
+    grid-column: 1;
     grid-row: 1 / 3;
 }
 
-.grid-tres > .item {
+.itens-grid {
     display: grid;
+}
+
+.itens-grid img {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: end;
+}
+
+.itens-grid p {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    align-self: end;
 }
