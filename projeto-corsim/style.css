@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bloco-cabecalho {
+    display: flex;
+    background: url('imagem/header_display_bg.jpg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+img.logo {
+    width: 200px;
+    cursor: pointer;
+}
