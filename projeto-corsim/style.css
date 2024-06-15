@@ -21,8 +21,25 @@ img.logo {
 
 .bloco-cabecalho {
     display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
 }
 
-.menu {
-    background-color: #D6D6D6;
+.bloco-menu, 
+.bloco-secao {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+}
+
+.lista-menu > a,
+.lista-secao > a {
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    text-decoration: none;
 }
