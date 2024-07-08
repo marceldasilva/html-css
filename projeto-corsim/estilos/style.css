@@ -3,12 +3,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bloco-logo {
     display: flex;
-    background: url('imagem/header_display_bg.jpg');
+    background: url('../imagem/header_display_bg.jpg');
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 15px;
@@ -16,7 +16,6 @@
 
 img.logo {
     width: 200px;
-    cursor: pointer;
 }
 
 .bloco-cabecalho {
@@ -59,7 +58,6 @@ img.logo {
 
 .titulo-secundario {
     font-size: 1.6em;
-    margin: auto;
     margin-top: 15px;
 }
 
@@ -76,7 +74,25 @@ img.logo {
 
 .bloco-conteudo-principal > p, 
 .bloco-conteudo-secundario > p {
-    text-align: justify;
     text-indent: 20px;
     margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.bloco-imagens {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+a > .imagem {
+    width: 120px;
+    margin: 0px 20px;
+    padding-top: 20px;
+}
+
+a > #imagem {
+    width: 120px;
+    margin-right: 20px;
+    padding-top: 20px;
 }
