@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login CorSim</title>
+    <link rel="stylesheet" href="estilos/style-login.css">
 </head>
 <body>
-    <a href="index.html"><input type="button" value="Acessa aí"></a>
+    <main>
+        <section class="login">
+            <div class="imagem">
+
+            </div>
+            <div class="formulario">
+                <h1>Login</h1>
+                <p>Insira seus dados de usuário abaixo.</p>
+                <form action="login.php" method="post">
+                    <div class="email">
+                        <label for="iemail">Email:</label>
+                        <input type="email" name="iemail" id="iemail">
+                    </div>
+                    <div class="senha">
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="isenha" id="isenha">
+                    </div>
+                    <div class="bloco-botao">
+                        <input type="button" value="Logar" class="botao" onclick="logar()">
+                    </div>
+            </div>
+        </section>
+    </main>
 </body>
 <script src="scripts/login.js"></script>
 </html>
