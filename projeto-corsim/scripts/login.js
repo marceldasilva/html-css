@@ -1,16 +1,13 @@
-const email = document.querySelector('#iemail')
-const senha = document.querySelector('#isenha')
+const email = document.querySelector('#iemail').value
+const senha = document.querySelector('#isenha').value
 
-function cadastraUsuario(emailUsuario, senhaUsuario) {
-    const Usuario = {
-        email: emailUsuario,
-        senha: senhaUsuario
+function logar(emailUsuario, senhaUsuario) {
+    if(emailUsuario.length < 4) {
+        return console.log('O email deve ter no mínimo 4 caracteres')
     }
-    return Usuario
+    if(senhaUsuario.length < 8) {
+        return console.log('A senha deve ter pelo menos 8 caracteres')
+    }
 }
 
-console.log(cadastraUsuario(email, senha))
-
-function logar() {
-    validaLogin()
-}
+logar(email, senha)
