@@ -18,24 +18,27 @@ main {
 
 .login {
     background: rgba(255, 255, 255, 0.194);
-    width: 300px;
-    height: 400px;
-    border-radius: 15px;
+    width: 250px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.284);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.492);
 }
 
 .imagem {
     background: url('../imagem/tela-de-login.jpg');
-    width: 300px;
+    width: 250px;
     height: 170px;
 }
 
 h1 {
+    margin-top: 10px;
     font-size: 1.8em;
 }
 
 p {
+    margin-top: 5px;
     font-size: 0.9em;
 }
 
@@ -45,6 +48,24 @@ p {
     text-align: center;
 }
 
+.email,
+.senha {
+    padding: 5px;
+}
+
+#iemail,
+#isenha {
+    width: 90%;
+    outline: none;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.711);
+}
+
+#iemail:hover,
+#isenha:hover {
+    outline: none;
+}
+
 .indicadores {
     color: white;
 }
@@ -52,11 +73,12 @@ p {
 .botao {
     display: block;
     margin: auto;
-    background: #3F60CC;
+    background: #0D3FE0;
     color: white;
     font-size: 1.4em;
-    width: 250px;
+    width: 80%;
     height: 50px;
+    margin-top: 10px;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.353);

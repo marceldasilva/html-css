@@ -1,13 +1,16 @@
-const email = document.querySelector('#iemail').value
-const senha = document.querySelector('#isenha').value
+function logar() {
+    const email = document.getElementById("iemail")
+    const senha = document.getElementById("isenha")
 
-function logar(emailUsuario, senhaUsuario) {
-    if(emailUsuario.length < 4) {
-        return console.log('O email deve ter no mínimo 4 caracteres')
-    }
-    if(senhaUsuario.length < 8) {
-        return console.log('A senha deve ter pelo menos 8 caracteres')
+    if (email.value.length == 0 || senha.value.length == 0) {
+        alert('Ambos campos devem estar preenchidos.')
+    } else if (email.value.length < 4 || email.value.length > 25) {
+        alert('O campo email não tem caracteres o suficiente.')
+    } else if (email.value.indexOf("@") == -1) {
+        alert('O email deve conter "@".')
+    } else if (senha.value.length < 8) {
+        alert('A senha deve ter no mínimo 8 caracteres.')
+    } else {
+        window.location = "index.html"
     }
 }
-
-logar(email, senha)
