@@ -24,6 +24,8 @@ main {
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.284);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.492);
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 .imagem {
@@ -56,18 +58,27 @@ p {
 #iemail,
 #isenha {
     width: 90%;
+    background-color: rgba(255, 255, 255, 0.624);
     outline: none;
     padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.711);
+    border-radius: 20px;
+}
+
+#iemail:focus,
+#isenha:focus {
+    background-color: white;
 }
 
 #iemail:hover,
 #isenha:hover {
     outline: none;
+    background-color: white;
 }
 
 .indicadores {
     color: white;
+    font-weight: 500;
 }
 
 .botao {
@@ -80,6 +91,7 @@ p {
     height: 50px;
     margin-top: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.353);
+    cursor: pointer;
 }
