@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    #burger {
+        display: block;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    #burger:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .bloco-cabecalho {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: black;
+    }
+
+    .bloco-menu,
+    .bloco-secao {
+        display: flex;
+        flex-flow: column wrap;
+        list-style: none;
+    }
+
+    .lista-menu > a,
+    .lista-secao > a {
+        display: block;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    .lista-menu > a:hover,
+    .lista-secao > a:hover {
+        background-color: white;
+        color: black;
+    }
+}
